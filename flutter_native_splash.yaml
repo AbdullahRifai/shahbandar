@@ -1,0 +1,13 @@
+# شاشة النظام (Native Splash) لـ A1.
+# بعد أي تعديل هنا شغّل:  dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#17202E"
+  image: assets/splash/splash_icon.png
+
+  android_12:
+    color: "#17202E"
+    image: assets/splash/splash_icon_android12.png
+
+  android: true
+  ios: false
+  web: false
